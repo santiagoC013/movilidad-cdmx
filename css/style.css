@@ -1,0 +1,41 @@
+html {
+    font-size: 20px;
+
+}
+body{
+    color: #32626c;
+    font-family: "Ibarra Real Nova", serif;    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Archivo", sans-serif;
+}
+a{
+    color: darkorange;
+    text-decoration: none;
+}
+a:visited {
+    color: #32626c;
+}
+a:hover {
+    color: pink;
+}
+
+section{
+    font-size: 20px;
+}
+    h1 {
+        color: coral;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+main {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1640px;
+}
