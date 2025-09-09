@@ -1,6 +1,8 @@
 :root {
     --bg-color: #ffffff;
     --accent-color: pink;
+    --hover-color: rgb(183, 82, 99);
+    --link-color: #ffffff;
     --text-color: #32626c;
     --font-family: "Ibarra Real Nova", serif;
     --font-title: "Archivo", sans-serif;
@@ -15,5 +17,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     background-color: var(--accent-color)
-    color: var(var(--text-color));
+    color: var(--text-color);
 }
