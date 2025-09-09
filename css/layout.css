@@ -1,7 +1,7 @@
 :root {
     --bg-color: #ffffff;
-    --accent-color: pink;
-    --hover-color: rgb(183, 82, 99);
+    --accent-color: rgb(251, 220, 225);
+    --hover-color: rgb(135, 42, 57);
     --link-color: #ffffff;
     --text-color: #32626c;
     --font-family: "Ibarra Real Nova", serif;
@@ -16,6 +16,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
     color: var(--text-color);
+    transition: all 100ms ease-in;
+    padding: 10px;
+    margin: 4px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: all 300ms ease-out;
+    background-color: var(--hover-color);
+    color: var(--link-color);
+
+
 }
